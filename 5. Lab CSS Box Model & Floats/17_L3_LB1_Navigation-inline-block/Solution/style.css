@@ -1,0 +1,26 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Georgia", sans-serif;
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+div {
+    
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px black solid;
+    margin: 10px;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    align-content: center;
+    margin: 10px;
+    color: rgb(0, 158, 107)
+}

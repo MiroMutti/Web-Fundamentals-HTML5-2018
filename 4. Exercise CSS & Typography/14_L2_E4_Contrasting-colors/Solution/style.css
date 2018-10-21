@@ -1,0 +1,22 @@
+html{
+    font-family: "Helvetica",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article {
+    background-color: rgb(51, 102, 153);
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.5rem;
+    
+}
+
+h1 {
+    font-family: "Georgia", serif;
+    color: white;
+}
+
+p {
+    color: white;
+}

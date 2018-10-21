@@ -1,0 +1,25 @@
+body{
+    background: #EEEEEE;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    max-width: 65rem;
+}
+li {
+    width: 13rem;
+    height: 30rem;
+    display: inline-block;
+    background: white;
+    padding: 1rem;
+    border: 0.15rem solid black;
+    margin: 1rem;
+    vertical-align: middle;
+    
+}
+
+img {
+    max-width: 13rem;
+    display: inline-block;
+    justify-items: center;
+}

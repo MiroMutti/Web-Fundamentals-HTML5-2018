@@ -1,0 +1,13 @@
+@import url('reset.css');
+@import url('typography.css');
+@import url('forms.css');
+@import url('buttons.css');
+
+
+body {
+    
+    background: #EEE;
+    padding: 2rem;
+
+}
+

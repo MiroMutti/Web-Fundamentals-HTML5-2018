@@ -1,0 +1,21 @@
+body{
+    background: #EEEEEE;
+    text-align: center;
+}
+ul {
+    display: inline-block;
+    max-width: 65rem;
+}
+li {
+    display: inline-block;
+    background: white;
+    padding: 0.6rem;
+    border: 0.15rem solid black;
+    margin: 1rem;
+    vertical-align: middle;
+    position: relative;
+}
+
+img {
+    max-width: 13rem;
+}

@@ -1,0 +1,46 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+    
+    font: 16px/1.5 Helvetica, sans-serif;
+}
+
+form {
+    margin: 3rem;
+    background: #F9F9F9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1.5rem;
+    max-width: 18rem;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+input {
+    display: block;
+    padding-left: 20px;
+}
+
+label {
+    display: block;
+    margin-left: 1rem;
+
+}
+
+.login{
+    position: relative;    
+    top: -35px;
+    left: -21px;
+    background: #F9F9F9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    width: 40px;
+    box-shadow: black, 5px;
+}
+
+i{
+    position: relative;
+    bottom: 20px;
+    left: 5px;
+}

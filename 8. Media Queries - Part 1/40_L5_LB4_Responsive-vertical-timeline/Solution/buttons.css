@@ -1,0 +1,20 @@
+.button {
+    font-size: 0.9rem;
+    background: #343334;
+    color: beige;
+    padding: 1.2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.button:hover {
+    background: silver;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}

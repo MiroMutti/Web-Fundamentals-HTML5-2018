@@ -1,0 +1,108 @@
+body {
+	background: #EEE;
+	padding: 3rem;
+}
+
+header .site-title {
+	display: flex;
+	min-width: 20vw;
+	font-weight: bold;
+	font-size: 3rem;
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+}
+
+.nav-main {
+	display: flex;
+	align-items: center;
+}
+
+body .main-bar {
+	border-bottom: 2px solid #000;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.nav-main ul {
+	background: #FFF;
+	padding: 0.5rem;
+	border-radius: 0.3rem;
+	margin: 0;
+	display: flex;
+}
+
+.nav-main ul ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: -0.5rem;
+	width: 10rem;
+}
+
+.nav-main ul ul ul {
+	top: -0.5rem; right: 100%;
+	left: inherit;
+}
+
+.nav-main ul li {
+	display: block;
+	list-style: none outside;
+	position: relative;
+}
+
+.nav-main > ul > li > ul li:not(:last-child) {
+	padding-bottom: 0.5rem;
+}
+
+.nav-main > ul > li {
+	padding: 0 0.5rem 0 0;
+}
+
+.nav-main ul li:hover > ul {
+	display: block;
+}
+
+.nav-main ul li a {
+	display: block;
+	padding: 0.5rem 1rem;
+	border-radius: 0.4rem;
+	text-decoration: none;
+	background: #333;
+	color: #FFF;
+}
+
+.nav-main ul li a:hover,
+.nav-main ul li:hover > a {
+	background: #090;
+}
+
+@media screen and (max-width: 400px){
+	.main-bar ul {
+	display: block;
+	width: 70vw;
+	}
+
+	.main-bar ul li{
+		padding: 0.1rem;
+	}
+
+	.nav-main ul ul {
+		display: none;
+		position: relative;
+		top: 110%;
+		left: 0.5rem;
+		width: 10rem;
+		padding: 0.1rem;
+	}
+	.nav-main ul li:hover > ul {
+		display: inline-block;
+	}
+
+	.nav-main ul ul ul {
+		position: relative;
+		top: 0.5rem; right: 100%;
+		left: 1.5rem;
+		padding: 0.1rem;
+	}
+
+}
